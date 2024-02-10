@@ -35,8 +35,9 @@
 
 
 ## 예시
-- 결제 시스템 객체를 팩토리 패턴으로 적용
-- payment.Payment : 결제 시스템 인터페이스
-  - <--- payment.NaverPay : 네이버 페이 시스템 구현체
-  - <--- payment.KakaoPay : 카카오 페이 시스템 구현체
-- FactoryMain : 결재 로직 있는 클라이언트 코드
+- 게임 캐릭터 생성하는 팩토리 예시
+- Character : 게임 캐릭터 인터페이스
+  - <--- Warrior : 전사 캐릭터 구현 클래스
+  - <--- Wizard : 마법사 캐릭터 구현 클래스
+- CharacterFactory : 게임 캐릭터 생성하는 팩토리 클래스
+- FactoryMain : 클라이언트 코드

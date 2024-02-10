@@ -1,14 +1,10 @@
-import payment.Payment;
-import payment.PaymentType;
+import character.Character;
+import character.CharacterType;
 
 public class FactoryMain {
     public static void main(String[] args) {
-        // 전달 타입에 따라 결제 시스템 타입이 변경
-        Payment payment = PaymentFactory.createPayment(PaymentType.KAKAO_PAY);
-
-        payment.connect();
-        int price = 10000;
-        payment.pay(price);
-        payment.cancel(price);
+        // 마법사 캐릭터 생성 후 공격
+        Character character = CharacterFactory.createCharacter(CharacterType.WIZARD);
+        character.attack();
     }
 }
