@@ -7,12 +7,8 @@ public class KakaoPay implements Payment {
     }
 
     @Override
-    public void pay(int price) {
+    public void pay(double price) {
         System.out.println("payment.KakaoPay.pay price : " + price);
     }
 
-    @Override
-    public void cancel(int price) {
-        System.out.println("payment.KakaoPay.cancel price: " + price);
-    }
 }
