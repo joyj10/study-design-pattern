@@ -42,5 +42,5 @@
 - CharacterFactory : 게임 캐릭터 생성하는 팩토리 클래스
 - FactoryMain : 클라이언트 코드
 
-### 다이어 그램
+### diagrams
 ![img.png](img.png)
