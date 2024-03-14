@@ -1,0 +1,37 @@
+package behavioral.chainofresposibility.login;
+
+public class AuthenticationRequest {
+    private String username;
+    private String password;
+    private String oAuthToken;
+
+    public AuthenticationRequest(String username, String password, String oAuthToken) {
+        this.username = username;
+        this.password = password;
+        this.oAuthToken = oAuthToken;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getOAuthToken() {
+        return oAuthToken;
+    }
+
+    public void setOAuthToken(String oAuthToken) {
+        this.oAuthToken = oAuthToken;
+    }
+}
